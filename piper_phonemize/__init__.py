@@ -3,7 +3,7 @@ from enum import Enum
 from pathlib import Path
 from typing import Dict, List, Optional, Union
 
-from piper_phonemize_cpp import (
+from .lib.piper_phonemize_cpp import (
     phonemize_espeak as _phonemize_espeak,
     phonemize_codepoints as _phonemize_codepoints,
     phoneme_ids_espeak as _phonemize_ids_espeak,
